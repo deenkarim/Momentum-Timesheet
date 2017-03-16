@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\...\MSLTimesheet\", ".", "{AC9F8E02-6D1C-43CC-9F1A-CF6F0186FB4B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/MSLTimesheet"
+		Debug.AspNetCompiler.PhysicalPath = "..\MSLTimesheet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MSLTimesheet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MSLTimesheet"
+		Release.AspNetCompiler.PhysicalPath = "..\MSLTimesheet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MSLTimesheet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2168"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9F8E02-6D1C-43CC-9F1A-CF6F0186FB4B}.Debug|.NET.ActiveCfg = Debug|.NET
+		{AC9F8E02-6D1C-43CC-9F1A-CF6F0186FB4B}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

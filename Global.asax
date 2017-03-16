@@ -1,0 +1,1 @@
+<%@ Application Inherits="MSLTimesheet.Global" Language="VB" %>

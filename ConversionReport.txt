@@ -1,0 +1,91 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file MSLTimesheet.vbproj at December 13 2005, 16:42:36.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: File C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalReportPluginLib.dll not found.
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Web.Config: added a reference for assembly CrystalDecisions.Web.
+Web.Config: added a reference for assembly CrystalDecisions.Shared.
+Web.Config: added a reference for assembly CrystalDecisions.ReportSource.
+Web.Config: added a reference for assembly CrystalDecisions.CrystalReports.Engine.
+Removed attribute Codebehind from file Global.asax.
+Removed attribute Codebehind from file index.aspx.
+Warning: Access level of 'MSLTimesheet.index' changed to 'Partial' in file index.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file index.aspx.vb.    index.aspx.vb (Line 13)
+Removed attribute Codebehind from file login.aspx.
+Warning: Access level of 'MSLTimesheet.login' changed to 'Partial' in file login.aspx.vb (Line 5).
+Warning: Removed comment lines before designplaceholder declaration from file login.aspx.vb.    login.aspx.vb (Line 15)
+Removed attribute Codebehind from file ui\adddept.aspx.
+Warning: Access level of 'MSLTimesheet.AddDept' changed to 'Partial' in file ui\AddDept.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\AddDept.aspx.vb.    ui\AddDept.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\adduser.aspx.
+Warning: Access level of 'MSLTimesheet.AddUser' changed to 'Partial' in file ui\AddUser.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\AddUser.aspx.vb.    ui\AddUser.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\caldate.aspx.
+Warning: Access level of 'MSLTimesheet.CalDate' changed to 'Partial' in file ui\CalDate.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\CalDate.aspx.vb.    ui\CalDate.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\editdept.aspx.
+Warning: Access level of 'MSLTimesheet.EditDept' changed to 'Partial' in file ui\EditDept.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\EditDept.aspx.vb.    ui\EditDept.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\edituser.aspx.
+Warning: Access level of 'MSLTimesheet.EditUser' changed to 'Partial' in file ui\EditUser.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\EditUser.aspx.vb.    ui\EditUser.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\help.aspx.
+Warning: Access level of 'MSLTimesheet.Help' changed to 'Partial' in file ui\Help.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\Help.aspx.vb.    ui\Help.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\notes.aspx.
+Warning: Access level of 'MSLTimesheet.Notes' changed to 'Partial' in file ui\Notes.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\Notes.aspx.vb.    ui\Notes.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\timereport.aspx.
+Warning: Access level of 'MSLTimesheet.TimeReport' changed to 'Partial' in file ui\TimeReport.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\TimeReport.aspx.vb.    ui\TimeReport.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\timesheet.aspx.
+Warning: Access level of 'MSLTimesheet.TimeSheet' changed to 'Partial' in file ui\TimeSheet.aspx.vb (Line 5).
+Warning: Removed comment lines before designplaceholder declaration from file ui\TimeSheet.aspx.vb.    ui\TimeSheet.aspx.vb (Line 15)
+Removed attribute Codebehind from file ui\timesheetcrv.aspx.
+Warning: Access level of 'MSLTimesheet.TimeSheetCRV' changed to 'Partial' in file ui\TimeSheetCRV.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\TimeSheetCRV.aspx.vb.    ui\TimeSheetCRV.aspx.vb (Line 13)
+Removed attribute Codebehind from file ui\users.aspx.
+Warning: Access level of 'MSLTimesheet.Users1' changed to 'Partial' in file ui\Users.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ui\Users.aspx.vb.    ui\Users.aspx.vb (Line 13)
+Reference to code-behind class 'MSLTimesheet.Notes' has been found in the file 'da\notedata.vb' at line '76'. A stub class for 'MSLTimesheet.Notes' will be generated in 'App_Code\Migrated' folder.
+Added folder App_Code\da.
+Moved file da\notedata.vb to the App_Code\da\ directory.
+Warning: Access level of 'GetAllDepartmentsByID' changed to 'Public' in file da\dept.vb (Line 20).
+Moved file da\dept.vb to the App_Code\da\ directory.
+Warning: Access level of '_ConnectStr' changed to 'Public' in file da\dataaccess.vb (Line 14).
+Warning: Access level of 'ConnectStr' changed to 'Public' in file da\dataaccess.vb (Line 16).
+Warning: Access level of '_WebFolder' changed to 'Public' in file da\dataaccess.vb (Line 30).
+Warning: Access level of 'WebFolder' changed to 'Public' in file da\dataaccess.vb (Line 32).
+Warning: Access level of 'Server' changed to 'Public' in file da\dataaccess.vb (Line 46).
+Warning: Access level of 'Database' changed to 'Public' in file da\dataaccess.vb (Line 60).
+Warning: Access level of 'Username' changed to 'Public' in file da\dataaccess.vb (Line 74).
+Warning: Access level of 'Password' changed to 'Public' in file da\dataaccess.vb (Line 88).
+Moved file da\dataaccess.vb to the App_Code\da\ directory.
+Moved file Global.asax.vb to the App_Code\ directory.
+Warning: Access level of 'GetTop5ByUserID' changed to 'Public' in file da\timedata.vb (Line 7).
+Warning: Access level of 'GetTop5' changed to 'Public' in file da\timedata.vb (Line 27).
+Warning: Access level of 'GetAlLTimeByID' changed to 'Public' in file da\timedata.vb (Line 61).
+Warning: Access level of 'GetAllTime' changed to 'Public' in file da\timedata.vb (Line 80).
+Moved file da\timedata.vb to the App_Code\da\ directory.
+Warning: Access level of 'DeleteUser' changed to 'Public' in file da\users.vb (Line 80).
+Warning: Access level of 'InsertUser' changed to 'Public' in file da\users.vb (Line 91).
+Moved file da\users.vb to the App_Code\da\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Added folder App_Code\ui.
+Moved file ui\mslts_rpt.vb to the App_Code\ui\ directory.
+Updated the attribute 'Inherits' with value 'MSLTimesheet.Migrated_Notes' in the file 'ui\notes.aspx'.
+Code file 'App_Code\Migrated\ui\Stub_notes_aspx_vb.vb' was created and contains an abstract class 'Migrated_Notes' used as a base class for the class 'MSLTimesheet.Notes'.    ui\notes.aspx.vb
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\MSLTimesheet.dll.
+Removed file Bin\MSLTimesheet.pdb.
+Removed file MSLTimesheet.vbproj.
+Removed file MSLTimesheet.vbproj.webinfo.
+Project MSLTimesheet.vbproj has been converted successfully at December 13 2005, 16:42:47.

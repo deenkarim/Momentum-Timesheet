@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<DatabaseDetails>
+	<Server>ks1</Server>
+	<Database>msltimesheet</Database>
+	<Username>msllogin</Username>
+	<Password>test</Password>
+</DatabaseDetails>
